@@ -1,0 +1,104 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #F5B927;
+    position: relative;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    max-width: 300px;
+
+    width: 100%;
+    padding: 40px 15px 40px 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #2C2626;
+    border: 3px solid #4446A2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+}
+
+.pendingTasks {
+
+    font-size: 30px;
+    color: white;
+    align-self: center;
+    flex-basis: 50px;
+
+}
+
+.task {
+    flex-basis: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    margin: 10px 0;
+}
+
+.userTask {
+    flex-basis: 135px;
+    font-size: 16px;
+
+}
+
+.completeButton {
+    background-color: #491DF4;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+
+}
+
+.completeButton > input[type="checkbox"]{
+    display: none;
+}
+
+ .userTasDone {
+    text-decoration: line-through;
+}
+
+
+.removeButton {
+    background-color: #E80001;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+.inputTask {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.inputValue {
+    height: 30px;
+    width: 250px;
+}
+
+#addTask {
+    font-size: 12px;
+    height: 30px;
+    color: black;
+    padding: 10px;
+    background-color: silver;
+    cursor: pointer;
+}
+
+
