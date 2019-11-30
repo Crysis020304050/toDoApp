@@ -70,7 +70,8 @@ body * {
     display: none;
 }
 
- .userTaskDone {
+
+.userTaskDone {
     text-decoration: line-through;
 }
 
@@ -93,6 +94,10 @@ body * {
 .inputValue {
     height: 30px;
     width: 250px;
+}
+
+.inputValueWrong {
+    background-color: red;
 }
 
 #addTask {
