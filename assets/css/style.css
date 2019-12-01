@@ -109,4 +109,9 @@ body * {
     cursor: pointer;
 }
 
+#tasksList {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 
